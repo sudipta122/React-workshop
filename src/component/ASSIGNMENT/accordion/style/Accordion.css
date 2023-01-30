@@ -1,0 +1,23 @@
+.accordion>h2{
+    text-align: center;
+}
+.accordion>.accordion-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border: 2px solid;
+}
+.accordion>.accordion-box>.upper>button{
+    padding-inline: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.accordion>.accordion-box>.down{
+    display: none;
+}
+.accordion>.accordion-box>.active-class{
+    display: block;
+    margin-bottom: 20px;
+}
